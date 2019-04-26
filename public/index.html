@@ -1,35 +1,22 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <meta charset="utf-8" />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <title>OpenWeatherAPI - Weather</title>
-
-    <link rel="stylesheet" href="screen.css" />
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weatherapi</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
-
   <body>
-    <!-- <h1>OpenWeatherAPI - Weather</h1> -->
-    <h1>Welcome to SDG Weather Caster!</h1>
-
-    <section id="weather">
-      <input placeholder="Enter City..." />
+    <section class="weather">
+      <h1>My Weather API</h1>
+      <section>
+        <input type="text" class="weather-search-text" />
+        <button class="search-button">search</button>
+        <button class="clear-button">Clear</button>
+      </section>
+      <h2 class="weather-city-label"></h2>
     </section>
-    <button class="search">search</button>
-
-    <section id="weather">
-      <p>
-        The weather in Tampa is: Humidity: 89, 
-      </p>
-      <p>Forcast: Cloudy Skies</p>
-      <p>Tempature:
-          89</p>
-      </p>
-    </section>
-
-    <script type="text/javascript" src="js/weather.js"></script>
+    <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
